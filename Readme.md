@@ -11,7 +11,7 @@ npm install
 ```
 ## Remove duplicate function
 
-You will find remove duplicate function in src folder. To check that functionality works properly, run the tests. Command is placed below.
+You will find remove duplicate function in **src** folder. To check that functionality works properly, run the tests. Command is placed below.
 
 ## Command to run tests 
 
