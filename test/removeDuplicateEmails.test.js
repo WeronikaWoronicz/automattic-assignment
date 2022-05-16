@@ -51,7 +51,7 @@ test('list remains in the original order',
     expect(isOrderPreserved(emailsWithDuplicates, uniqueEmails)).toBe(true, 'list must preserve the original order')
   })
 
-test('function can handle 100,000 email addresses containing 50% randomly placed duplicates in under 1 second ',
+test('function can handle 100,000 email addresses containing 50% randomly placed duplicates in under 1 second',
   () => {
     // arrange
     const emailsWithDuplicates = generateEmailListWithDuplicates(100000)
